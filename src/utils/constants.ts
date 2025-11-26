@@ -1,0 +1,5 @@
+export const PAYCHECKS_PER_YEAR = 26
+export const ANNUAL_EMPLOYEE_COST = 1000
+export const ANNUAL_DEPENDENT_COST = 500
+export const DISCOUNT_RATE = 0.1
+export const EMPLOYEE_PAYCHECK_AMOUNT = 2000
