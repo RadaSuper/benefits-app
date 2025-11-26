@@ -26,7 +26,7 @@ export const FormDialog = (props: FormDialogProps) => {
 
   useEffect(() => {
     if (isOpen) reset(props.defaultValues)
-  }, [isOpen])
+  }, [isOpen, props.defaultValues, reset])
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
